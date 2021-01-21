@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ajay</folder>
+	<filename>qqqqqqqqqqqq.jpeg</filename>
+	<path>C:\Users\Asus\Downloads\ajay\qqqqqqqqqqqq.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2340</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1091</xmin>
+			<ymin>422</ymin>
+			<xmax>1203</xmax>
+			<ymax>662</ymax>
+		</bndbox>
+	</object>
+</annotation>
