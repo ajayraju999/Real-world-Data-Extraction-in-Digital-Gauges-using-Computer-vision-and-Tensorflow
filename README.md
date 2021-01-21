@@ -1,2 +1,7 @@
-# Real-world-Data-Extraction-in-Digital-Guages-using-Computer-vision-and-Tensorflow
+# DATA EXTRACTION IN DIGITAL GAUGES WITHOUT HUMAN INTERVENTION
+.
+## Custom Trained Object Detection model for extracting the data in digital gauges.
+
 ![ ](readme_images/sample_image.jpeg)
+
+
