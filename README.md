@@ -16,3 +16,14 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 
 
+
+
+
+## Technology used:
+* Deep Learning
+* Computer vision
+* Object Detection
+* Tensor Flow object detection api 2
+
+
+
