@@ -19,7 +19,7 @@ The aim of the project is  to capture data from digital gauges without any  huma
 * Making a Custom object detection model using Tensor Flow Object Detection Api which recognizes shown numbers as objects and performs its detections showing accuracy and class of the shown digits.
 * Considering every digit and point as an object shown in the image ,labelling it with respected class and Training a custom trained object detection model using the best suited pretrained Cnn architecture which gives accurate results .
 
-
+![ ](readme_images/t.png)
 
 
 
