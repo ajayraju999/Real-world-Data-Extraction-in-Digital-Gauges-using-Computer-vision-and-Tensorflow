@@ -13,11 +13,11 @@ The aim of the project is  to capture data from digital gauges without any  huma
 * Tried different approaches in order to satisfy the objective like used ocr space api ,but ocr space api did not perform well on seven segment display images.
 * So the final method tried to reach the objective is Object detection.
 * Object detection will take an image and identify and label specific objects within the image. For a complex image with multiple objects in view, object detection will provide a bounding box around each detected object, as well as a label identifying the class to which the object belongs. So made a custom object detection model using tensorflow object detection api which recognizes shown numbers as objects and performs its detections showing accuracy and class of the shown digits.
+* Detection time is very fast and cool.
 
-
-
-
-
+![ ](readme_images/detected_image_b.png)
+* Making a Custom object detection model using Tensor Flow Object Detection Api which recognizes shown numbers as objects and performs its detections showing accuracy and class of the shown digits.
+* Considering every digit and point as an object shown in the image ,labelling it with respected class and Training a custom trained object detection model using the best suited pretrained Cnn architecture which gives accurate results .
 
 ## Technology used:
 * Deep Learning
