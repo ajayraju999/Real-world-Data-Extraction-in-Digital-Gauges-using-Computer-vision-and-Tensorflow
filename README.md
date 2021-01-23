@@ -25,13 +25,35 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 ## Design and Architecure:
 * Using EfficientDet Object detection model (SSD with EfficientNet-b0 + BiFPN feature extractor, shared box predictor and focal loss), trained on COCO 2017 dataset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
-## Technology used:
-* Deep Learning
-* Computer vision
-* Object Detection
-* Tensor Flow object detection api 2
+## This readme describes every step required to get going with your own object detection classifier:
+
+Installing Anaconda, CUDA, and cuDNN.
+Setting up the Object Detection directory structure and Anaconda Virtual Environment.
+Gathering and labeling pictures.
+Generating training data.
+Creating a label map and configuring training.
+Training.
+Exporting the inference graph.
+Testing and using your newly trained object detection classifier.
 
 
 
