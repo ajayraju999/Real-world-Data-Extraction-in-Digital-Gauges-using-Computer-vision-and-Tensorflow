@@ -52,9 +52,18 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 * Batch size :16
 * total_steps: 300000 ,warmup_learning_rate: .001,warmup_steps: 2500
 * learning_rate_base: 8e-2
-* Loss view:
+* Loss view
 
-![ ](readme_images/Normalized loss.png) 
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -75,4 +84,4 @@ Exporting the inference graph.
 Testing and using your newly trained object detection classifier.
 
 
-
+ 
