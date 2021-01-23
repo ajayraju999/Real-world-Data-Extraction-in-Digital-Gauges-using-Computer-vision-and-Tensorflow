@@ -19,24 +19,42 @@ The aim of the project is  to capture data from digital gauges without any  huma
 * Making a Custom object detection model using Tensor Flow Object Detection Api which recognizes shown numbers as objects and performs its detections showing accuracy and class of the shown digits.
 * Considering every digit and point as an object shown in the image ,labelling it with respected class and Training a custom trained object detection model using the best suited pretrained Cnn architecture which gives accurate results .
 
-![ ](readme_images/t.png)
+
 
 
 
 ## Design and Architecure:
 * Using EfficientDet Object detection model (SSD with EfficientNet-b0 + BiFPN feature extractor, shared box predictor and focal loss), trained on COCO 2017 dataset.
+![ ](readme_images/Architecture.png)
 
 
 
 
 
 
+EfficientNet as the backbone network, BiFPN as the feature network, and shared class/box prediction network. Both BiFPN layers and class/box net layers are repeated multiple times based on different resource constraints
 
 
 
 
+![ ](readme_images/architecture_2.png)
+* Compound scaling
+* BIFPN network 
+* Box/class prediction network
+* Input image resolution  
+![ ](readme_images/input_image_!.png)
 
 
+## Training and Execution:
+* Custom Dataset
+* Optimizer-Momentum optimizer
+* momentum_optimizer_value: 0.9
+* Batch size :16
+* total_steps: 300000 ,warmup_learning_rate: .001,warmup_steps: 2500
+* learning_rate_base: 8e-2
+* Loss view:
+
+![ ](readme_images/Normalized loss.png) 
 
 
 
@@ -45,6 +63,7 @@ The aim of the project is  to capture data from digital gauges without any  huma
  
 
 ## This readme describes every step required to get going with your own object detection classifier:
+
 
 Installing Anaconda, CUDA, and cuDNN.
 Setting up the Object Detection directory structure and Anaconda Virtual Environment.
