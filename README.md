@@ -52,7 +52,7 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 * Batch size :16
 * total_steps: 300000 ,warmup_learning_rate: .001,warmup_steps: 2500
 * learning_rate_base: 8e-2
-* Loss view
+*  Tensor Board Loss view:
 
 
 
