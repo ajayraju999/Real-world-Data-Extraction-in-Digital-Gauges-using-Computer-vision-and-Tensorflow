@@ -57,13 +57,27 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 
 
 
+Localization Loss                 
+![ ](readme_images/Localization_loss.png) 
 
+Classification Loss
+![ ](readme_images/classification_loss.png)
 
+Normalized loss
+![ ](readme_images/normalized_loss.png)
 
+Regularization loss
+![ ](readme_images/Regularization_loss.png)
 
+overall_loss
+![ ](readme_images/total_loss.png)
+
+Learning_rate
+![ ](readme_images/learning_rate.png)
 
 
  
+                                                            
 
 
 
