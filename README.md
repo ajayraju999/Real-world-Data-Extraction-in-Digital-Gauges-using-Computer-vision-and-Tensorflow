@@ -19,6 +19,14 @@ The aim of the project is  to capture data from digital gauges without any  huma
 ## idea:
 * Considering every digit and point as an object shown in the image ,labelling it with respected class and Training a custom trained object detection model using the best suited pretrained Cnn architecture which gives accurate results.
 ## Data peparation:
+* Collected 100 seven segment display images.
+* Here are some of the example images.
+![ ](readme_images/seven_segment_image_1.jpeg)
+![ ](readme_images/seven_segment_image.jpeg)
+![ ](readme_images/seven_segment_image_2.jpeg)
+![ ](readme_images/seven_segment_image_4.jpeg)
+
+
 
 * seven_segment_image.jpeg
 
