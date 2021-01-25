@@ -123,8 +123,13 @@ Learning_rate
 
  
                                                             
+## Model exporting
+* Once you finish training your model, you can export your model to be used for inference.
 
- 
+
+
+## Classify images
+Now that we have our custom model ready , we can use it to detect data  in pictures ,videos and through web cam.
 
 ## This readme describes every step required to get going with your own object detection classifier:
 
