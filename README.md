@@ -43,15 +43,6 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 
 
-* Here are some of the example images which I have used for training and testing.
-![ ](readme_images/seven_segment_image_1.jpeg)
-![ ](readme_images/seven_segment_image.jpeg)
-![ ](readme_images/seven_segment_image_2.jpeg)
-![ ](readme_images/seven_segment_image_4.jpeg)
-
-
-
-
 
 
 
