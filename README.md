@@ -30,6 +30,7 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 * Once you’ve collected all the images you need, you need to label them manually. There are many packages that serve this purpose. labelImg is a popular choice.
 * labelImg provides a user-friendly GUI. Plus, it saves label files (.xml) in the popular Pascal VOC format.
+* check that every image has a corresponding .xml file and save them in a particular training and testing directory.
 * The next step is creating a label map(.pbxt) for the classes.Classes need to be listed in the label map as shown in the below pitcure.
 
 ![ ](readme_images/Capture.PNG)
@@ -44,7 +45,12 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 
 
+* Convert XML to CSV file.You can use my python script from the repository to convert XML files to CSV. 
+* As we have all images and their bounding boxes are in XML format. Also all image has separate XML file so using the xml_to_csv.py, we are creating a CSV file which contains all the XML files and their bounding box co-ordinates to single CSV file which is input for creating TFrecords.
 
+* Create TFRecord:
+* TFRecord is an important data format designed for Tensorflow.
+* Before you can train your custom object detector, you must convert your data into the TFRecord format.
 
 
 
