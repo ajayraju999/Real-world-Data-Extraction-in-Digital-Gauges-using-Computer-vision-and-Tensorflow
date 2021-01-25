@@ -85,13 +85,18 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 
 
 
-## Training and Execution:
-* Custom Dataset
+## Training and Evaluation:
+* Custom Dataset,Images used for training 70 and for validation ,testing 30 images were used.
 * Optimizer-Momentum optimizer
 * momentum_optimizer_value: 0.9
 * Batch size :16
-* total_steps: 300000 ,warmup_learning_rate: .001,warmup_steps: 2500
+* total_steps: 30000 ,warmup_learning_rate: .001,warmup_steps: 2500
 * learning_rate_base: 8e-2
+* Evaluation can be run in parallel with training. 
+* You can visualize model training progress using Tensorboard.
+* Based on the graphs output by Tensorboard, you may decide when you want to stop training. 
+* Usually, you may stop the process when the loss function is tapering off and no longer 
+  decreasing by a significant amount. In my case, I stopped at step 12592.
 *  Tensor Board Loss view:
 
 
