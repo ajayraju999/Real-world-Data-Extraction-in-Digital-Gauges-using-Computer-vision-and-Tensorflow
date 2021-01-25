@@ -56,35 +56,8 @@ The aim of the project is  to capture data from digital gauges without any  huma
 ###  Download pre-trained model
 * There are many pre-trained object detection models available in the model zoo. 
 * In order to train them using our custom data set, the models need to be restored in Tensorflow using their checkpoints (.ckpt files), which are records of previous model states.
-
 * For this Project I have used efficientdet_d0_coco17_tpu-32 here and saved its model checkpoint files (ckpt.meta, ckpt-0.index, ckpt-0.data-00000-of-00001) to our models/checkpoints/ directory.
-
-### Modify Config (.config) File
-* Each of the pretrained models has a config file that contains details about the model. 
-* To detect our custom class, the config file needs to be modified accordingly.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Design and Architecure:
+## Design and Architecure of the model:
 * Using EfficientDet Object detection model (SSD with EfficientNet-b0 + BiFPN feature extractor, shared box predictor and focal loss), trained on COCO 2017 dataset.
 ![ ](readme_images/Architecture.png)
 
@@ -104,6 +77,12 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 * Box/class prediction network
 * Input image resolution  
 ![ ](readme_images/input_image_!.png)
+
+
+### Modify Config (.config) File
+* Each of the pretrained models has a config file that contains details about the model. 
+* To detect our custom class, the config file needs to be modified accordingly.
+
 
 
 ## Training and Execution:
@@ -139,10 +118,6 @@ Learning_rate
 
  
                                                             
-
-
-
-
 
  
 
