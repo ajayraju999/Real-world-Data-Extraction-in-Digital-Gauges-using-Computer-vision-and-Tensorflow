@@ -23,7 +23,7 @@ The aim of the project is  to capture data from digital gauges without any  huma
 * Once you’ve collected all the images you need, you need to label them manually. There are many packages that serve this purpose. labelImg is a popular choice.
 * labelImg provides a user-friendly GUI. Plus, it saves label files (.xml) in the popular Pascal VOC format.
 * The next step is creating a label map(.pbxt) for the classes.Classes need to be listed in the label map as shown in the below pitcure.
-![ ](readme_images/capture.png)
+![ ](readme_images/Capture.PNG)
 * Here are some of the example images which I have used for training and testing.
 ![ ](readme_images/seven_segment_image_1.jpeg)
 ![ ](readme_images/seven_segment_image.jpeg)
