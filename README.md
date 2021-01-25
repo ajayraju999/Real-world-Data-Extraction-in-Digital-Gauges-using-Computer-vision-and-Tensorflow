@@ -27,7 +27,7 @@ The aim of the project is  to capture data from digital gauges without any  huma
 ![ ](readme_images/seven_segment_image_2.jpeg)
 ![ ](readme_images/seven_segment_image_4.jpeg)
 
-## Labelling:
+### Labelling:
 * Once you’ve collected all the images you need, you need to label them manually. There are many packages that serve this purpose. labelImg is a popular choice.
 * labelImg provides a user-friendly GUI. Plus, it saves label files (.xml) in the popular Pascal VOC format.
 * check that every image has a corresponding .xml file and save them in a particular training and testing directory.
@@ -45,13 +45,25 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 
 
-## Convert XML to CSV file.
+### Convert XML to CSV file.
 * You can use my python script from the repository to convert XML files to CSV. 
 * As we have all images and their bounding boxes are in XML format. Also all image has separate XML file so using the xml_to_csv.py, we are creating a CSV file which contains all the XML files and their bounding box co-ordinates to single CSV file which is input for creating TFrecords.
 
-## Create TFRecord:
+### Create TFRecord
 * TFRecord is an important data format designed for Tensorflow.
 * Before you can train your custom object detector, you must convert your data into the TFRecord format.
+
+###  Download pre-trained model
+* There are many pre-trained object detection models available in the model zoo. 
+* In order to train them using our custom data set, the models need to be restored in Tensorflow using their checkpoints (.ckpt files), which are records of previous model states.
+
+* For this Project I have used efficientdet_d0_coco17_tpu-32 here and saved its model checkpoint files (ckpt.meta, ckpt-0.index, ckpt-0.data-00000-of-00001) to our models/checkpoints/ directory.
+
+### Modify Config (.config) File
+* Each of the pretrained models has a config file that contains details about the model. 
+* To detect our custom class, the config file needs to be modified accordingly.
+
+
 
 
 
