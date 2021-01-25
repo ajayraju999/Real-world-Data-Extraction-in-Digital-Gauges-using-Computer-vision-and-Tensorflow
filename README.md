@@ -1,5 +1,5 @@
 ## DATA EXTRACTION IN DIGITAL GAUGES WITHOUT HUMAN INTERVENTION.
-![ ](readme_images/sample_image_2.jpeg)
+![ ](readme_images/abstract.jpeg)
 
 ## Custom Trained Object Detection model for extracting the data in digital gauges.
 
