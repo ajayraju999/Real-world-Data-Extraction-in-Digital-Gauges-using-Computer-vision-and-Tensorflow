@@ -19,8 +19,11 @@ The aim of the project is  to capture data from digital gauges without any  huma
 * Considering every digit and point as an object shown in the image ,labelling it with respected class and Training a custom trained object detection model using the best suited pretrained Cnn architecture which gives accurate results.
 
 ## Data peparation:
-* Collected 100 seven segment display images.
-* Here are some of the example images which I have used.
+* Data preparation is the most important part of training your own model. Since we’re going to train a custom object detector, we must collect pictures of them! About 100 of them would be sufficient.
+* Once you’ve collected all the images you need, you need to label them manually. There are many packages that serve this purpose. labelImg is a popular choice.
+* labelImg provides a user-friendly GUI. Plus, it saves label files (.xml) in the popular Pascal VOC format.
+* The next step is creating a label map(.pbxt) for the classes.Classes need to be listed in the label map as shown in the below pitcure.
+* Here are some of the example images which I have used for training and testing.
 ![ ](readme_images/seven_segment_image_1.jpeg)
 ![ ](readme_images/seven_segment_image.jpeg)
 ![ ](readme_images/seven_segment_image_2.jpeg)
@@ -29,7 +32,9 @@ The aim of the project is  to capture data from digital gauges without any  huma
 
 
 
-* seven_segment_image.jpeg
+
+
+
 
 
 
