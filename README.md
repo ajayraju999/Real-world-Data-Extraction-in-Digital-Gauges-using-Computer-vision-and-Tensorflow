@@ -1,5 +1,5 @@
-# Introduction and Overview
-![ ](readme_images/abstract.jpeg)
+
+
 
 ## Custom Trained Object Detection model for extracting the data in digital gauges.
 
