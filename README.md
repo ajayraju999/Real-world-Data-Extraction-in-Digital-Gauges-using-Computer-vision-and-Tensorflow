@@ -5,8 +5,8 @@
 
 
 ## Project Scope:
-The aim of the project is  to capture data from digital gauges without any  human intervention. We focused mainly on digital gauges related to retail,automotive,Electrical,Thermal power,oil & gas-retail,boilers etc. The idea is to build a computer vision model that would capture the data
-and store its readings in particular files for future tracking.
+The aim of the project is  to capture data from digital gauges without any  human intervention. We focused mainly on digital gauges. 
+The idea is to build a computer vision model that would capture the data and store its readings in particular files for future tracking.
 
 
 
