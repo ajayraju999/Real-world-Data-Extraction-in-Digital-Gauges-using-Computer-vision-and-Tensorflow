@@ -1,6 +1,6 @@
 
 ## This repository drives you through,Real-world-Data-Extraction-in-Digital-Guages-using-Computer-vision-and-Tensorflow through webcam.
-![ ](readme_images/sample_gif.gif)
+
 ## Custom Trained Object Detection model for extracting the data in digital gauges.
 
 
@@ -112,9 +112,9 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 
 
 
-## Classify images
-Now that we have our custom model ready , we can use it to detect data  in pictures ,videos and through web cam.
-
+## Classify images 
+Now our custom model will be ready,we can use it to detect data  in pictures ,videos and through webcam.
+![ ](readme_images/sample_gif.gif)
 ## This readme describes every step required to get going with your own object detection classifier:
 
 
@@ -126,6 +126,9 @@ Creating a label map and configuring training.
 Training.
 Exporting the inference graph.
 Testing and using your newly trained object detection classifier.
+# To Do's:
+1) Deploying the model into web application.
+2) Should Try to use the webapp in real time.
 
 
  
