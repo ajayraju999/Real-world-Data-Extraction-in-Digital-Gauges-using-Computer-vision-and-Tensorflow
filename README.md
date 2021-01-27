@@ -161,39 +161,17 @@ To try it out, I recommend to run it inside Google Colab.
 
 * Install TensorFlow 2.x,TensorFlow Object Detection API .
 
-Install TensorFlow Model Garden for different pretrained models using the below link. https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+* Install TensorFlow Model Garden for different pretrained models using the below link https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Installing Anaconda, CUDA, and cuDNN.
-Setting up the Object Detection directory structure and Anaconda Virtual Environment.
-Gathering and labeling pictures.
-Generating training data.
-Creating a label map and configuring training.
-Training.
-Exporting the inference graph.
-Testing and using your newly trained object detection classifier.
+## An over view of execution:
+* Installing Anaconda, CUDA, and cuDNN.
+* Setting up the Object Detection directory structure and Anaconda Virtual Environment.
+* Gathering and labeling pictures.
+* Generating training data.
+* Creating a label map and configuring training.
+* Training.
+* Exporting the inference graph.
+* Testing and using your newly trained object detection classifier by running RUN_EXTRACTION.py.
 # To Do's:
 1) Deploying the model into web application.
 2) Should Try to use the webapp in real time.
