@@ -120,7 +120,7 @@ Now our custom model will be ready,we can use it to detect data in pictures ,vid
 ![ ](readme_images/sample_gif.gif)
 
 
-## Prerequisites:
+## Prerequisites,Installation and setup:
 * Anaconda Python 3.7 (Optional)
 * Go to https://www.anaconda.com/products/individual and click the “Download” button ,Download the Python 3.7 64-Bit Graphical Installer
   or the 32-Bit Graphical Installer installer, per your system requirements.
