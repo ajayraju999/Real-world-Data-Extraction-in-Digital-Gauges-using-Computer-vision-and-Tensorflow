@@ -121,6 +121,10 @@ Now our custom model will be ready,we can use it to detect data in pictures ,vid
 
 
 ## Prerequisites,Installation and setup:
+* You can install the TensorFlow Object Detection API either with Python Package Installer (pip) or Docker, an open-source platform for deploying
+  and managing containerized applications. 
+* For running the Tensorflow Object Detection API locally, Docker is recommended. If you aren't familiar with Docker though, it might be easier to install it using pip.
+* You can also clone directly using git ,git clone https://github.com/tensorflow/models.git
 * Anaconda Python 3.7 (Optional)
 * Go to https://www.anaconda.com/products/individual and click the “Download” button ,Download the Python 3.7 64-Bit Graphical Installer
   or the 32-Bit Graphical Installer installer, per your system requirements.
