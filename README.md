@@ -1,6 +1,6 @@
 
 ## In this repository,we will know about Real-world-Data-Extraction-in-Digital-Guages-using-Computer-vision-and-Tensorflow through webcam.
-
+![ ](readme_images/sample_gif.gif)
 ## Custom Trained Object Detection model for extracting the data in digital gauges.
 
 
@@ -8,7 +8,7 @@
 The aim of the project is  to capture data from digital gauges without any  human intervention. We focused mainly on digital gauges related to retail,automotive,Electrical,Thermal power,oil & gas-retail,boilers etc. The idea is to build a computer vision model that would capture the data
 and store its readings in particular files for future tracking.
 
-![ ](readme_images/sample_gif.gif)
+
 
 
 ## Idea and Approach:
