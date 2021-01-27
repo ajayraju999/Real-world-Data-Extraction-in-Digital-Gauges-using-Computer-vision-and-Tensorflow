@@ -114,9 +114,61 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 
 
 ## Classify images 
-Now our custom model will be ready,we can use it to detect data  in pictures ,videos and through webcam.
+Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
 ![ ](readme_images/sample_gif.gif)
-## This readme describes every step required to get going with your own object detection classifier:
+
+
+## Prerequisites:
+* Anaconda Python 3.7 (Optional)
+* Go to https://www.anaconda.com/products/individual and click the “Download” button ,Download the Python 3.7 64-Bit Graphical Installer
+  or the 32-Bit Graphical Installer installer, per your system requirements.
+* Run the downloaded executable (.exe) file to begin the installation.
+* In the next step, check the box “Add Anaconda3 to my PATH environment variable”.
+* This will make Anaconda your default Python distribution, which should ensure that you have the same default Python distribution across all editors.
+* GPU Support (Optional)
+* Nvidia GPU (GTX 650 or newer)
+* CUDA Toolkit v10.1
+* CuDNN 7.6.5
+* Go to https://developer.nvidia.com/rdp/cudnn-download
+* Create a user profile if needed and log in ,Select cuDNN v7.6.5 (Nov 5, 2019), for CUDA 10.1
+  Download cuDNN v7.6.5 Library for Windows 10.
+* Extract the contents of the zip file (i.e. the folder named cuda) inside <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v10.1\, where <INSTALL_PATH> points to the   installation directory specified during the installation of the CUDA Toolkit. By default <INSTALL_PATH> = C:\Program Files.
+* Go to Start and Search “environment variables”
+* Click “Edit the system environment variables”. This should open the “System Properties” window
+* In the opened window, click the “Environment Variables…” button to open the “Environment Variables” window.
+* Under “System variables”, search for and click on the Path system variable, then click “Edit…”
+* Add the following paths, then click “OK” to save the changes:
+* <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+* <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp
+* <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\libx64
+* <INSTALL_PATH>\NVIDIA GPU Computing Toolkit\CUDA\v10.1\cuda\bin
+ 
+
+* Install TensorFlow 2.x,TensorFlow Object Detection API .
+
+Install TensorFlow Model Garden for different pretrained models using the below link. https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Installing Anaconda, CUDA, and cuDNN.
@@ -130,6 +182,7 @@ Testing and using your newly trained object detection classifier.
 # To Do's:
 1) Deploying the model into web application.
 2) Should Try to use the webapp in real time.
+
 
 
  
