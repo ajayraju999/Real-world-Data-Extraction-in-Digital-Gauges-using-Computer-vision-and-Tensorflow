@@ -1,7 +1,5 @@
 
-## Real-world-Data-Extraction-in-Digital-Guages-using-Computer-vision-and-Tensorflow through webcam.
-
-
+## In this repository,we will know about Real-world-Data-Extraction-in-Digital-Guages-using-Computer-vision-and-Tensorflow through webcam.
 
 ## Custom Trained Object Detection model for extracting the data in digital gauges.
 
