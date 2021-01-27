@@ -118,9 +118,12 @@ To try it out, I recommend to run it inside Google Colab.
 * create and follow the directories mentioned in offical Tensorflow object detection Api 2
   documentation https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
 * Make sure youre directory is properly insatlled correct files 
-C:\Users\Asus\Data Extraction\models\research\object_detection
+* open the command prompt or virtual environment where you want to run the application  
+![ ](readme_images/cmd_sample_!.png)
 
 ## Classify images 
+* Install all the dependencies required to run the RUN_EXTRACTION.py you can use anaconda virtual environment or cmd.
+
 * Our model does a pretty good job of detecting different types seven segment displays.
 * Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
 ![ ](readme_images/sample_gif.gif)
