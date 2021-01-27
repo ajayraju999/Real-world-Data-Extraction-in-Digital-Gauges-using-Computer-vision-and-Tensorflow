@@ -111,7 +111,9 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 ## Model exporting
 * Once you finish training your model, you can export your model to be used for inference.
 
-
+## Execution:
+* The object_detection_tutorial.ipynb notebook walks you through the process of using a pre-trained model to detect objects in an image.
+To try it out, I recommend to run it inside Google Colab.
 
 ## Classify images 
 Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
