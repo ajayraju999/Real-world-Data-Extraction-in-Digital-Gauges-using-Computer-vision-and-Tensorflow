@@ -114,9 +114,15 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
 ## Execution:
 * The object_detection_tutorial.ipynb notebook walks you through the process of using a pre-trained model to detect objects in an image.
 To try it out, I recommend to run it inside Google Colab.
+* After insatllion of object detection api and it's dependencies 
+* create and follow the directories mentioned in offical Tensorflow object detection Api 2
+  documentation https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
+* Make sure youre directory is properly insatlled correct files 
+C:\Users\Asus\Data Extraction\models\research\object_detection
 
 ## Classify images 
-Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
+* Our model does a pretty good job of detecting different types seven segment displays.
+* Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
 ![ ](readme_images/sample_gif.gif)
 
 
