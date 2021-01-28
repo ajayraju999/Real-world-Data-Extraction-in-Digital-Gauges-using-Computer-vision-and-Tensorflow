@@ -102,7 +102,7 @@ EfficientNet as the backbone network, BiFPN as the feature network, and shared c
   decreasing by a significant amount. In my case, I stopped at step 12592.
 *  Tensor Board Loss view:
 
-![ ](readme_images/Capture_2.PNG) 
+![ ](readme_images/tensorboard_view.PNG) 
 
 
 
