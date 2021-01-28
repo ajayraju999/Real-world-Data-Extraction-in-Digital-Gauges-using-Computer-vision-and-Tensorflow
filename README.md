@@ -131,7 +131,7 @@ To try it out, I recommend to run it inside Google Colab.
 
      ![ ](readme_images/image_jupyter.jpeg)
 
-     ![ ](readme_images/sample_image.jpeg)
+
 
 ![ ](readme_images/phone_view.png)
 
