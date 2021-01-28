@@ -135,7 +135,7 @@ To try it out, I recommend to run it inside Google Colab.
 
 ![ ](readme_images/phone_view.png)
 
-
+* we can have more clear view of digits detection by clicking on this link: 
 ## Prerequisites,Installation and setup:
 * You can install the TensorFlow Object Detection API either with Python Package Installer (pip) or Docker, an open-source platform for deploying
   and managing containerized applications. 
