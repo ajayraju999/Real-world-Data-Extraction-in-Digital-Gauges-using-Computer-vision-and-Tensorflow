@@ -129,6 +129,8 @@ To try it out, I recommend to run it inside Google Colab.
 * Here are some of the sample outputs 
 ![ ](readme_images/sample_gif.gif)
 ![ ](readme_images/sample_image_2.jpeg)
+![ ](readme_images/sample_image.JPEG)
+![ ](readme_images/detected_image_a.PNG)
 
 
 ## Prerequisites,Installation and setup:
