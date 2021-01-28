@@ -128,7 +128,7 @@ To try it out, I recommend to run it inside Google Colab.
 * Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
 * Here are some of the sample outputs 
 ![ ](readme_images/sample_gif.gif)
-![ ](readme_images/sample_image_2.png)
+![ ](readme_images/sample_image_2.jpeg)
 
 
 ## Prerequisites,Installation and setup:
