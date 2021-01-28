@@ -133,7 +133,7 @@ To try it out, I recommend to run it inside Google Colab.
 
      ![ ](readme_images/sample_image.jpeg)
 
-![ ](readme_images/phone_view.PNG)
+![ ](readme_images/phone_view.png)
 
 
 ## Prerequisites,Installation and setup:
