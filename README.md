@@ -58,7 +58,7 @@ The idea is to build a computer vision model that would capture the data and sto
 
 ###  Download pre-trained model
 * There are many pre-trained object detection models available in the model zoo. 
-* In order to train them using our custom data set, the models need to be restored in Tensorflow using their checkpoints (.ckpt files), which are records of previous model states.
+* In order to train them using our custom data set, the models need to be restored in Tensorflow using their checkpoints (.ckpt files), which are records of previous model         states.
 * For this Project I have used efficientdet_d0_coco17_tpu-32 here and saved its model checkpoint files (ckpt.meta, ckpt-0.index, ckpt-0.data-00000-of-00001) to our models/checkpoints/ directory.
 ## Design and Architecure of the model:
 * Using EfficientDet Object detection model (SSD with EfficientNet-b0 + BiFPN feature extractor, shared box predictor and focal loss), trained on COCO 2017 dataset.
@@ -69,7 +69,7 @@ The idea is to build a computer vision model that would capture the data and sto
 
 
 
-EfficientNet as the backbone network, BiFPN as the feature network, and shared class/box prediction network. Both BiFPN layers and class/box net layers are repeated multiple times based on different resource constraints
+* EfficientNet as the backbone network, BiFPN as the feature network, and shared class/box prediction network. Both BiFPN layers and class/box net layers are repeated multiple     times based on different resource constraints
 
 
 
@@ -129,11 +129,11 @@ To try it out, I recommend to run it inside Google Colab.
 * Here are some of the sample outputs 
 ![ ](readme_images/sample_gif.gif)
 
-     ![ ](readme_images/sample_image_2.jpeg)
+     ![ ](readme_images/image_jupyter.jpeg)
 
      ![ ](readme_images/sample_image.jpeg)
 
-![ ](readme_images/detected_image_b.png)
+![ ](readme_images/phone_view.PNG)
 
 
 ## Prerequisites,Installation and setup:
@@ -179,9 +179,15 @@ To try it out, I recommend to run it inside Google Colab.
 * Training.
 * Exporting the inference graph.
 * Testing and using your newly trained object detection classifier by running RUN_EXTRACTION.py.
+
+
+## Conclusion:
+ * I Discovered that my hypothesis was right i.e considering digits and point as objects and tried to do ,object detection on them ,which worked very well in real time  webcam      detection which can be used for capturing the digital gauges  data without any human presence as per the project scope,tried different pretrained models for improving the        accuracy ,among them EfficientDet-D0 (512)﻿ was giving me better accuracy around 98-99%,thanks for Auring Technologies for giving me this project.
+
+
 # To Do's:
 1) Deploying the model into web application.
-2) Should Try to use the webapp in real time.
+2) Should Try to use the webapp in real time use.
 
 
 
