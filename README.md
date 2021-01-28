@@ -126,7 +126,7 @@ To try it out, I recommend to run it inside Google Colab.
 
 * Our model does a pretty good job of detecting different types seven segment displays.
 * Now our custom model will be ready,we can use it to detect data in pictures ,videos and through webcam.
-* Here are some of the sample outputs 
+* Here are some of the Tested sample outputs through webcam and images. 
 ![ ](readme_images/sample_gif.gif)
 
      ![ ](readme_images/image_jupyter.jpeg)
