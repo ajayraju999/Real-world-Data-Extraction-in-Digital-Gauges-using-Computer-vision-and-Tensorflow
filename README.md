@@ -30,7 +30,7 @@ The idea is to build a computer vision model that would capture the data and sto
 ![ ](readme_images/seven_segment_image_2.jpeg)
 ![ ](readme_images/seven_segment_image_4.jpeg)
 
-### Labelling:
+### Labeling and annotation:
 * Once you’ve collected all the images you need, you need to label them manually. There are many packages that serve this purpose. labelImg is a popular choice.
 * labelImg provides a user-friendly GUI. Plus, it saves label files (.xml) in the popular Pascal VOC format.
 * check that every image has a corresponding .xml file and save them in a particular training and testing directory.
